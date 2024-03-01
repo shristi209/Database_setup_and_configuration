@@ -35,6 +35,8 @@ Till now, we have completed defining the database schema and setting up user acc
 Each table in our database represents a core entity within our blogging application. We'll provide detailed definitions for each table, including the columns they contain and their respective purposes.
 The database schema for our blogging application consists of the following tables:
 
+
+
 | Table Name | Columns                               | Description                              |
 |------------|---------------------------------------|------------------------------------------|
 | Users      | user_id (int), username (varchar(50)), email (varchar(50)), password (varchar(50)) | Stores information about registered users. |
@@ -44,7 +46,11 @@ The database schema for our blogging application consists of the following table
 
 Understanding the schema is crucial for defining tables, including their IDs, keys, and relationships. To facilitate this understanding, I am providing a diagram illustrating the overall schema of this project.
 
+
+
 ![Database Schema Diagram](image.png)
+
+
 
 <h2>Establishing basic relationships</h2>
 After creating the tables, we establish the following basic relationships within our database:
@@ -67,11 +73,14 @@ Each comment is associated with only one user.
 
 As I have assigned only one blog_id for both the blog and category_table, this implies a one-to-one relationship between blog posts and categories.
 
+
+
 <h2>Conclusion:</h2>
 In wrapping up, this project has walked us through the essential steps of setting up a robust database using Microsoft SQL Server. By creating a solid schema and establishing relationships between tables, we've laid a strong foundation for managing data effectively.
 
 
 Understanding the basics of database setup and configuration is key to building reliable applications. With this project, we've gained valuable insights into user management, schema design, and establishing relationships between data entities.
+
 
 
 <h5>
